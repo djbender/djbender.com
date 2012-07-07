@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | octopress.derekbender.me]]></title>
+  <link href="http://octopress.derekbender.me/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://octopress.derekbender.me/"/>
+  <updated>2012-07-07T14:39:24-05:00</updated>
+  <id>http://octopress.derekbender.me/</id>
+  <author>
+    <name><![CDATA[Derek Bender]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How Not To Sort By Average Rating]]></title>
+    <link href="http://octopress.derekbender.me/2012/04/03/20410032579/"/>
+    <updated>2012-04-03T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2012/04/03/20410032579</id>
+    <content type="html"><![CDATA[<p><a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a><br/><blockquote></p>
+
+<p><strong>PROBLEM</strong>: You are a web programmer. You have users. Your users rate stuff on your site. You want to put the highest-rated stuff at the top and lowest-rated at the bottom. You need some sort of &#8220;score&#8221; to sort by.</p>
+
+
+<p></blockquote></p>
+
+<p>The solution:</p>
+
+
+
+
+<blockquote><img align="middle" alt="lolmath" height="64" src="http://evanmiller.org/rating-equation.png" width="460"/></blockquote>
+
+
+
+
+<p>Algorithm discussed and a Ruby implementation provided! Love this sort of applied statistics. Discussion in link below on HN.</p>
+
+
+
+
+<p>(Source: <a href="http://news.ycombinator.com/item?id=3792627" title="news.ycombinator.com">news.ycombinator.com</a>)</p>
+
+]]></content>
+  </entry>
+  
+</feed>

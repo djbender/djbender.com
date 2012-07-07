@@ -6,6 +6,10 @@ $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
 
+  get '/unplayed' do
+    send_file 'static/unplayed/index.html'
+  end
+
   get(/.+/) do
     send_sinatra_file(request.path) {404}
   end

@@ -1,0 +1,35 @@
+---
+layout: post
+title: Bash one-liner to convert a directory of flac audio files to mp3 V0
+categories: none
+---
+
+<pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
+
+
+
+
+
+
+
+<p>V0 just because `-b 320` can be rather silly.</p>
+
+
+
+
+
+
+
+<p>On a Mac using <a title="Homebrew" target="_blank" href="http://mxcl.github.com/homebrew/">Homebrew</a>, just do the following:</p>
+
+
+
+
+
+
+
+<blockquote>
+
+<p>brew install lame flac</p>
+
+</blockquote>

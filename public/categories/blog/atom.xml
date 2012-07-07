@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | octopress.derekbender.me]]></title>
+  <link href="http://octopress.derekbender.me/categories/blog/atom.xml" rel="self"/>
+  <link href="http://octopress.derekbender.me/"/>
+  <updated>2012-07-07T14:39:24-05:00</updated>
+  <id>http://octopress.derekbender.me/</id>
+  <author>
+    <name><![CDATA[Derek Bender]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated from Tumblr to Octopress on Jekyll]]></title>
+    <link href="http://octopress.derekbender.me/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll/"/>
+    <updated>2012-07-07T12:49:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll</id>
+    <content type="html"><![CDATA[<p>Decided to migrate away from Tumblr so that I could control more of my content without the need to worry about what a third party company is doing with my data.</p>
+]]></content>
+  </entry>
+  
+</feed>

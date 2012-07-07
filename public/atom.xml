@@ -4,7 +4,7 @@
   <title><![CDATA[octopress.derekbender.me]]></title>
   <link href="http://octopress.derekbender.me/atom.xml" rel="self"/>
   <link href="http://octopress.derekbender.me/"/>
-  <updated>2012-07-07T11:52:21-05:00</updated>
+  <updated>2012-07-07T14:39:24-05:00</updated>
   <id>http://octopress.derekbender.me/</id>
   <author>
     <name><![CDATA[Derek Bender]]></name>
@@ -12,5 +12,321 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated from Tumblr to Octopress on Jekyll]]></title>
+    <link href="http://octopress.derekbender.me/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll/"/>
+    <updated>2012-07-07T12:49:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll</id>
+    <content type="html"><![CDATA[<p>Decided to migrate away from Tumblr so that I could control more of my content without the need to worry about what a third party company is doing with my data.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kittie Writes a Song]]></title>
+    <link href="http://octopress.derekbender.me/2012/04/18/21342966020/"/>
+    <updated>2012-04-18T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2012/04/18/21342966020</id>
+    <content type="html"><![CDATA[<blockquote>The corn city central<br/>
+
+is where we play<br/>
+
+corn city central<br/>
+
+fructose all day<br/>
+
+run that ball, plow that field<br/>
+
+all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought to you by <a href="http://octopress.derekbender.me//chefkittie.com" target="_blank">chefkittie.com</a>.
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How Not To Sort By Average Rating]]></title>
+    <link href="http://octopress.derekbender.me/2012/04/03/20410032579/"/>
+    <updated>2012-04-03T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2012/04/03/20410032579</id>
+    <content type="html"><![CDATA[<a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a><br/><blockquote>
+
+<p><strong>PROBLEM</strong>: You are a web programmer. You have users. Your users rate stuff on your site. You want to put the highest-rated stuff at the top and lowest-rated at the bottom. You need some sort of &#8220;score&#8221; to sort by.</p>
+
+</blockquote>
+
+<p>The solution:</p>
+
+<blockquote><img align="middle" alt="lolmath" height="64" src="http://evanmiller.org/rating-equation.png" width="460"/></blockquote>
+
+<p>Algorithm discussed and a Ruby implementation provided! Love this sort of applied statistics. Discussion in link below on HN.</p>
+
+<p>(Source: <a href="http://news.ycombinator.com/item?id=3792627" title="news.ycombinator.com">news.ycombinator.com</a>)</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Unsecured Mass Assignment is Bad]]></title>
+    <link href="http://octopress.derekbender.me/2012/03/07/18915042658/"/>
+    <updated>2012-03-07T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2012/03/07/18915042658</id>
+    <content type="html"><![CDATA[<p><div>A slew of github gists. I don&#8217;t understand why people don&#8217;t make these blog posts, I can only imagine the traffic they&#8217;re getting. Embedding gists is easy.</div>
+
+<ul><li><a href="https://gist.github.com/1975738" target="_blank">Homakov shows us how he was able to compromise Github.com</a></li>
+
+<li><a href="https://gist.github.com/1976133" target="_blank">Jbarnette shows us how to make your Rails app warn on ActiveRecord::Base#update_attributes</a></li>
+
+<li><a href="https://gist.github.com/1974187" target="_blank">Wycats creates a Proposal for Improving Mass Assignment</a></li>
+
+<li><a href="https://gist.github.com/1975644" target="_blank">DHH on how 37signals commonly avoids Mass Assignment vulnerabilities. </a>Should be used in addition to attr_accessible.</li>
+
+</ul></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The 10 Rules of a Zen Programmer]]></title>
+    <link href="http://octopress.derekbender.me/2012/03/02/18644991600/"/>
+    <updated>2012-03-02T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2012/03/02/18644991600</id>
+    <content type="html"><![CDATA[<a href="http://www.grobmeier.de/the-10-rules-of-a-zen-programmer-03022012.html">The 10 Rules of a Zen Programmer</a><br/><p>Seriously Zen. Topics include:</p>
+
+<blockquote><ol><li>Focus</li>
+
+<li>Keep your mind clean</li>
+
+<li>Beginners mind</li>
+
+<li>No ego</li>
+
+<li>There is no career goal</li>
+
+<li>Shut up</li>
+
+<li>Mindfulness. Care. Awareness</li>
+
+<li>There is no boss</li>
+
+<li>Do something else</li>
+
+<li>There is nothing special</li>
+
+</ol></blockquote>
+
+<p>I already see myself improving from some of these values.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://octopress.derekbender.me/2012/02/24/18198528510/"/>
+    <updated>2012-02-24T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2012/02/24/18198528510</id>
+    <content type="html"><![CDATA[<p><ul><li><a href="http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html" target="_blank">Rails Went Off The Rails: Why I&#8217;m Rebuilding Archaeopteryx In CoffeeScript</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html&amp;title=Rails%20Went%20Off%20The%20Rails:%20Why%20I'm%20Rebuilding%20Archaeopteryx%20In%20CoffeeScript" width="78"></iframe></li>
+
+<li><a href="http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/" target="_blank">What’s the waiter doing with the computer screen?</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/&amp;title=Whats%20the%20waiter%20doing%20with%20the%20computer%20screen?" width="78"></iframe></li>
+
+<li><a href="https://github.com/jfirebaugh/skim" target="_blank">Skim</a> Fat-free client-side templates with Slim and CoffeeScript</li>
+
+<li><a href="http://railsapps.github.com/" target="_blank">“Crazy Deep” Rails 3.2 Example Apps and Tutorials</a></li>
+
+<li><a href="https://github.com/moviepilot/chaplin" target="_blank">Chaplin</a> - &#8220;Chaplin is an example architecture for JavaScript applications using the Backbone.js library. The code is derived from moviepilot.com, a large single-page application.&#8221;</li>
+
+</ul></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mou]]></title>
+    <link href="http://octopress.derekbender.me/2011/11/08/12512478811/"/>
+    <updated>2011-11-08T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2011/11/08/12512478811</id>
+    <content type="html"><![CDATA[<p><a href="http://static.tumblr.com/qjueruy/XhBlubjzj/screen_shot_2011-11-07_at_7.48.33_pm.png" target="_blank"><img src="http://media.tumblr.com/tumblr_lubjusczMX1qzwieh.png" alt="Mou"/></a></p>
+
+
+
+<p>If you use <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, stop what you&#8217;re doing and check out <a href="http://mouapp.com" target="_blank">Mou</a>.</p>
+
+
+
+<p>Biggest features is as you type preview window, but it&#8217;s full of awesome features like custom color themes, fullscreen mode, and exporting to html.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Converting flac to alac using ffmpeg]]></title>
+    <link href="http://octopress.derekbender.me/2011/11/07/12493684319/"/>
+    <updated>2011-11-07T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2011/11/07/12493684319</id>
+    <content type="html"><![CDATA[<p>In my <a href="http://derekbender.me/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+
+
+
+<pre><code>$ brew install --use-gcc ffmpeg
+
+</code></pre>
+
+
+
+<p>This can take a couple minutes as it installs all of its dependencies and compiles. Note that the <code>--use-gcc</code> flag is used because as of this writing ffmpeg does not compile with LLVM, and there are <a href="https://github.com/mxcl/homebrew/issues/7780" target="_blank">several</a> <a href="https://github.com/mxcl/homebrew/issues/8456" target="_blank">issues</a> <a href="https://github.com/mxcl/homebrew/issues/8494" target="_blank">already</a> open about it.</p>
+
+
+
+<p>And then to change a directory full of flac files to alac, run this bash one-liner:</p>
+
+
+
+<pre><code>$ for file in *.flac; do ffmpeg -i "$file" -acodec alac "`basename "$file" .flac`.m4a"; done;
+
+</code></pre>
+
+
+
+<p>This process didn&#8217;t take long at all. It appears that there isn&#8217;t any transcoding happening, more likely just a repackaging of data.</p>
+
+
+
+<p>I found several other solutions of interest like <a href="http://code.google.com/p/flukeformac/" target="_blank">Fluke</a> to play flac files in iTunes but you would still need to convert them inside iTunes to alac, and, as of this writing, Fluke does not work with iTunes on OS X 10.7 (Lion) in 64-bit mode. You can how ever bypass that by running iTunes in 32-bit mode.</p>
+
+
+
+<p>Another tool I found was <a href="http://tmkk.pv.land.to/xld/index_e.html" target="_blank">XLD</a> but I did not test this option since the ffmpeg option was so simple and easy.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bash one-liner to convert a directory of flac audio files to mp3 V0]]></title>
+    <link href="http://octopress.derekbender.me/2011/10/26/11946893232/"/>
+    <updated>2011-10-26T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2011/10/26/11946893232</id>
+    <content type="html"><![CDATA[<pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
+
+
+
+
+
+
+
+<p>V0 just because `-b 320` can be rather silly.</p>
+
+
+
+
+
+
+
+<p>On a Mac using <a title="Homebrew" target="_blank" href="http://mxcl.github.com/homebrew/">Homebrew</a>, just do the following:</p>
+
+
+
+
+
+
+
+<blockquote>
+
+<p>brew install lame flac</p>
+
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Love what you do.]]></title>
+    <link href="http://octopress.derekbender.me/2011/08/17/9057745065/"/>
+    <updated>2011-08-17T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2011/08/17/9057745065</id>
+    <content type="html"><![CDATA[<a href="http://startupquote.com/post/9057337917/your-work-is-going-to-fill-a-large-part-of-your"><img src="http://octopress.derekbender.me/images/tumblr_lq3jujxEMM1qz6pqio1_500.png"/></a><br/><p>Reblogged for truth! Why settle for anything less? </p>
+
+<p><a href="http://onceuponamanda.tumblr.com/post/9057373480" target="_blank">onceuponamanda</a>:</p>
+
+<blockquote>
+
+<p>If I could hug a quote, I would.</p>
+
+<p><a href="http://startupquote.com/post/9057337917" target="_blank">startupquote</a>:</p>
+
+<blockquote>
+
+<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</p>
+
+<p>- Steve Jobs</p>
+
+</blockquote>
+
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Matt explains why you should keep your SSH keys on a new installation]]></title>
+    <link href="http://octopress.derekbender.me/2011/08/15/8952084328/"/>
+    <updated>2011-08-15T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2011/08/15/8952084328</id>
+    <content type="html"><![CDATA[<section><dialog><dt>Matt J.:</dt><dd>it&#8217;s like you have a specific call that you use to bring your falcon back to your arm
+</dd><dt>Matt J.:</dt><dd>but then you go and buy a new jeep to get to the aviary
+</dd><dt>Matt J.:</dt><dd>just because you have a new jeep, your falcon doesnt need a new call
+</dd><dt>Matt J.:</dt><dd>he still knows the same call</dd></section></dialog>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[giant robots smashing into other giant robots - 2011 Rubyist's guide to a Mac OS X development environment]]></title>
+    <link href="http://octopress.derekbender.me/2011/08/15/8951379200/"/>
+    <updated>2011-08-15T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2011/08/15/8951379200</id>
+    <content type="html"><![CDATA[<a href="http://robots.thoughtbot.com/post/8700977975">giant robots smashing into other giant robots: 2011 Rubyist&#8217;s guide to a Mac OS X development environment</a><br/><p><a href="http://robots.thoughtbot.com/post/8700977975" target="_blank">thoughtbot-giantrobots</a>:</p>
+
+<blockquote>
+
+<p>It’s been <a href="http://robots.thoughtbot.com/post/159805668/2009-rubyists-guide-to-a-mac-os-x-development" target="_blank">two and a half years</a> since my last laptop. It’s neat to look back and see how much has improved since then for setting up a Ruby development environment.</p>
+
+<p>Of particular note, Homebrew, RVM, and Bundler did not exist back then.</p>
+
+<p>Here’s how I set up an OS X 10.7 (Lion) thoughtbot laptop&#8230;</p>
+
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Imagine and Ocean Software Documentatry]]></title>
+    <link href="http://octopress.derekbender.me/2011/08/02/8386349842/"/>
+    <updated>2011-08-02T00:00:00-05:00</updated>
+    <id>http://octopress.derekbender.me/2011/08/02/8386349842</id>
+    <content type="html"><![CDATA[<iframe width="400" height="300" src="http://www.youtube.com/embed/Yt9BsZCifgU?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe><p>About this video:</p>
+
+<blockquote>
+
+<p><span>In early 1984 the Imagine team were working on a spectacular project known as Bandersnatch. The game was to come in an A4 sized box containing around 30 &#8216;goodies&#8217; including a required additional piece of hardware for your Spectrum computer. The retail price of Bandersnatch was expected to be around £40 and it was to be a completely new concept in computer games. Apparently 10 professional artists were working on the graphics alone. Bandersnatch was never released. On the 9th of July 1984, Imagine went bust after only 18 months of operation. Interestingly, its demise was documented by a BBC television program.</span></p>
+
+</blockquote>
+
+<p><span>This is an incredible piece of game industry history. A must watch.</span></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[kung fu grippe - The (Imperfect) Art of Sending Sensitive Stuff]]></title>
+    <link href="http://octopress.derekbender.me/2011/03/13/3848020745/"/>
+    <updated>2011-03-13T00:00:00-06:00</updated>
+    <id>http://octopress.derekbender.me/2011/03/13/3848020745</id>
+    <content type="html"><![CDATA[<a href="http://www.kungfugrippe.com/post/3786441300/dbox-trick">kung fu grippe: The (Imperfect) Art of Sending Sensitive Stuff</a><br/><p><a href="http://www.kungfugrippe.com/post/3786441300/dbox-trick" target="_blank">merlin</a>:</p>
+
+<blockquote>
+
+<p><a href="http://www.practicallyefficient.com/2011/03/11/securer-file-sharing-with-dropbox/" target="_blank">Securer file sharing with Dropbox «&#160;practically efficient</a></p>
+
+<blockquote>
+
+<ul><li>Zip your files </li>
+
+<li>Put the zip file in your Dropbox ‘Public’ folder </li>
+
+<li>Email the file link, not the file </li>
+
+</ul></blockquote>
+
+<p>Great advice on sending sensitive stuff via <a href="http://www.dropbox.com/" target="_blank">Dropbox</a> . And pretty close to what I do. With this handful of paranoid additions&#8230;</p>
+
+</blockquote>
+]]></content>
+  </entry>
   
 </feed>

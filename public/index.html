@@ -7,7 +7,7 @@
 	<meta name="author" content="Derek Bender">
 
   
-	<meta name="description" content="my description">
+	<meta name="description" content="Ruby, Javascript, development processes, Buddhism, paleo, weightlifting, and Coffee. Not necessarily in that order. xoxo">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -24,7 +24,7 @@
 	<header id="header" class="inner"><h1><a href="/">octopress.derekbender.me</a></h1>
 <nav id="main-nav"><ul class="main">
 	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/archives">Archives</a></li>
 </ul>
 </nav>
 <nav id="mobile-nav">
@@ -32,7 +32,7 @@
 		<a class="button">Menu</a>
 		<div class="container"><ul class="main">
 	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/archives">Archives</a></li>
 </ul>
 </div>
 	</div>
@@ -51,6 +51,10 @@
 		
 		
 		
+		<a class="twitter" href="http://twitter.com/djbender" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/djbender" title="GitHub">GitHub</a>
 		
 		
 		
@@ -67,10 +71,527 @@
 
 </header>
 	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/djbender">djbender</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('djbender', 4, false);
+	})(jQuery);
+</script>
+
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll/">Migrated From Tumblr to Octopress on Jekyll</a></h1>
+	<div class="entry-content">
+		<p>Decided to migrate away from Tumblr so that I could control more of my content without the need to worry about what a third party company is doing with my data.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-07T12:49:00-05:00" pubdate data-updated="true">Jul 7<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/blog/'>blog</a>, <a class='category' href='/categories/jekyll/'>jekyll</a>, <a class='category' href='/categories/meta/'>meta</a>, <a class='category' href='/categories/octopress/'>octopress</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/04/18/21342966020/">Kittie Writes a Song</a></h1>
+	<div class="entry-content">
+		<blockquote>The corn city central<br/>
+
+is where we play<br/>
+
+corn city central<br/>
+
+fructose all day<br/>
+
+run that ball, plow that field<br/>
+
+all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought to you by <a href="//chefkittie.com" target="_blank">chefkittie.com</a>.
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-18T00:00:00-05:00" pubdate data-updated="true">Apr 18<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/04/03/20410032579/">How Not to Sort by Average Rating</a></h1>
+	<div class="entry-content">
+		<a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a><br/><blockquote>
+
+<p><strong>PROBLEM</strong>: You are a web programmer. You have users. Your users rate stuff on your site. You want to put the highest-rated stuff at the top and lowest-rated at the bottom. You need some sort of &#8220;score&#8221; to sort by.</p>
+
+</blockquote>
+
+<p>The solution:</p>
+
+<blockquote><img align="middle" alt="lolmath" height="64" src="http://evanmiller.org/rating-equation.png" width="460"/></blockquote>
+
+<p>Algorithm discussed and a Ruby implementation provided! Love this sort of applied statistics. Discussion in link below on HN.</p>
+
+<p>(Source: <a href="http://news.ycombinator.com/item?id=3792627" title="news.ycombinator.com">news.ycombinator.com</a>)</p>
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-03T00:00:00-05:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/algorithm/'>algorithm</a>, <a class='category' href='/categories/average/'>average</a>, <a class='category' href='/categories/rating/'>rating</a>, <a class='category' href='/categories/ruby/'>ruby</a>, <a class='category' href='/categories/statistics/'>statistics</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/03/07/18915042658/">Unsecured Mass Assignment Is Bad</a></h1>
+	<div class="entry-content">
+		<p><div>A slew of github gists. I don&#8217;t understand why people don&#8217;t make these blog posts, I can only imagine the traffic they&#8217;re getting. Embedding gists is easy.</div>
+
+<ul><li><a href="https://gist.github.com/1975738" target="_blank">Homakov shows us how he was able to compromise Github.com</a></li>
+
+<li><a href="https://gist.github.com/1976133" target="_blank">Jbarnette shows us how to make your Rails app warn on ActiveRecord::Base#update_attributes</a></li>
+
+<li><a href="https://gist.github.com/1974187" target="_blank">Wycats creates a Proposal for Improving Mass Assignment</a></li>
+
+<li><a href="https://gist.github.com/1975644" target="_blank">DHH on how 37signals commonly avoids Mass Assignment vulnerabilities. </a>Should be used in addition to attr_accessible.</li>
+
+</ul></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-07T00:00:00-06:00" pubdate data-updated="true">Mar 7<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/03/02/18644991600/">The 10 Rules of a Zen Programmer</a></h1>
+	<div class="entry-content">
+		<a href="http://www.grobmeier.de/the-10-rules-of-a-zen-programmer-03022012.html">The 10 Rules of a Zen Programmer</a><br/><p>Seriously Zen. Topics include:</p>
+
+<blockquote><ol><li>Focus</li>
+
+<li>Keep your mind clean</li>
+
+<li>Beginners mind</li>
+
+<li>No ego</li>
+
+<li>There is no career goal</li>
+
+<li>Shut up</li>
+
+<li>Mindfulness. Care. Awareness</li>
+
+<li>There is no boss</li>
+
+<li>Do something else</li>
+
+<li>There is nothing special</li>
+
+</ol></blockquote>
+
+<p>I already see myself improving from some of these values.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-02T00:00:00-06:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2012/02/24/18198528510/">Links</a></h1>
+	<div class="entry-content">
+		<p><ul><li><a href="http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html" target="_blank">Rails Went Off The Rails: Why I&#8217;m Rebuilding Archaeopteryx In CoffeeScript</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html&amp;title=Rails%20Went%20Off%20The%20Rails:%20Why%20I'm%20Rebuilding%20Archaeopteryx%20In%20CoffeeScript" width="78"></iframe></li>
+
+<li><a href="http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/" target="_blank">What’s the waiter doing with the computer screen?</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/&amp;title=Whats%20the%20waiter%20doing%20with%20the%20computer%20screen?" width="78"></iframe></li>
+
+<li><a href="https://github.com/jfirebaugh/skim" target="_blank">Skim</a> Fat-free client-side templates with Slim and CoffeeScript</li>
+
+<li><a href="http://railsapps.github.com/" target="_blank">“Crazy Deep” Rails 3.2 Example Apps and Tutorials</a></li>
+
+<li><a href="https://github.com/moviepilot/chaplin" target="_blank">Chaplin</a> - &#8220;Chaplin is an example architecture for JavaScript applications using the Backbone.js library. The code is derived from moviepilot.com, a large single-page application.&#8221;</li>
+
+</ul></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-24T00:00:00-06:00" pubdate data-updated="true">Feb 24<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/11/08/12512478811/">Mou</a></h1>
+	<div class="entry-content">
+		<p><a href="http://static.tumblr.com/qjueruy/XhBlubjzj/screen_shot_2011-11-07_at_7.48.33_pm.png" target="_blank"><img src="http://media.tumblr.com/tumblr_lubjusczMX1qzwieh.png" alt="Mou"/></a></p>
+
+
+
+<p>If you use <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, stop what you&#8217;re doing and check out <a href="http://mouapp.com" target="_blank">Mou</a>.</p>
+
+
+
+<p>Biggest features is as you type preview window, but it&#8217;s full of awesome features like custom color themes, fullscreen mode, and exporting to html.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-08T00:00:00-06:00" pubdate data-updated="true">Nov 8<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/11/07/12493684319/">Converting Flac to Alac Using Ffmpeg</a></h1>
+	<div class="entry-content">
+		<p>In my <a href="http://derekbender.me/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+
+
+
+<pre><code>$ brew install --use-gcc ffmpeg
+
+</code></pre>
+
+
+
+<p>This can take a couple minutes as it installs all of its dependencies and compiles. Note that the <code>--use-gcc</code> flag is used because as of this writing ffmpeg does not compile with LLVM, and there are <a href="https://github.com/mxcl/homebrew/issues/7780" target="_blank">several</a> <a href="https://github.com/mxcl/homebrew/issues/8456" target="_blank">issues</a> <a href="https://github.com/mxcl/homebrew/issues/8494" target="_blank">already</a> open about it.</p>
+
+
+
+<p>And then to change a directory full of flac files to alac, run this bash one-liner:</p>
+
+
+
+<pre><code>$ for file in *.flac; do ffmpeg -i "$file" -acodec alac "`basename "$file" .flac`.m4a"; done;
+
+</code></pre>
+
+
+
+<p>This process didn&#8217;t take long at all. It appears that there isn&#8217;t any transcoding happening, more likely just a repackaging of data.</p>
+
+
+
+<p>I found several other solutions of interest like <a href="http://code.google.com/p/flukeformac/" target="_blank">Fluke</a> to play flac files in iTunes but you would still need to convert them inside iTunes to alac, and, as of this writing, Fluke does not work with iTunes on OS X 10.7 (Lion) in 64-bit mode. You can how ever bypass that by running iTunes in 32-bit mode.</p>
+
+
+
+<p>Another tool I found was <a href="http://tmkk.pv.land.to/xld/index_e.html" target="_blank">XLD</a> but I did not test this option since the ffmpeg option was so simple and easy.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-07T00:00:00-06:00" pubdate data-updated="true">Nov 7<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/10/26/11946893232/">Bash One-liner to Convert a Directory of Flac Audio Files to Mp3 V0</a></h1>
+	<div class="entry-content">
+		<pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
+
+
+
+
+
+
+
+<p>V0 just because `-b 320` can be rather silly.</p>
+
+
+
+
+
+
+
+<p>On a Mac using <a title="Homebrew" target="_blank" href="http://mxcl.github.com/homebrew/">Homebrew</a>, just do the following:</p>
+
+
+
+
+
+
+
+<blockquote>
+
+<p>brew install lame flac</p>
+
+</blockquote>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-26T00:00:00-05:00" pubdate data-updated="true">Oct 26<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/08/17/9057745065/">Love What You Do.</a></h1>
+	<div class="entry-content">
+		<a href="http://startupquote.com/post/9057337917/your-work-is-going-to-fill-a-large-part-of-your"><img src="/images/tumblr_lq3jujxEMM1qz6pqio1_500.png"/></a><br/><p>Reblogged for truth! Why settle for anything less? </p>
+
+<p><a href="http://onceuponamanda.tumblr.com/post/9057373480" target="_blank">onceuponamanda</a>:</p>
+
+<blockquote>
+
+<p>If I could hug a quote, I would.</p>
+
+<p><a href="http://startupquote.com/post/9057337917" target="_blank">startupquote</a>:</p>
+
+<blockquote>
+
+<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</p>
+
+<p>- Steve Jobs</p>
+
+</blockquote>
+
+</blockquote>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-17T00:00:00-05:00" pubdate data-updated="true">Aug 17<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
 
 <nav id="pagenavi">
     
+    
+        <a href="/blog/page/2/" class="next">Next</a>
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>

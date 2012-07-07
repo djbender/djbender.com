@@ -1,0 +1,181 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Converting flac to alac using ffmpeg - octopress.derekbender.me</title>
+	<meta name="author" content="Derek Bender">
+
+  
+	<meta name="description" content="Ruby, Javascript, development processes, Buddhism, paleo, weightlifting, and Coffee. Not necessarily in that order. xoxo">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="octopress.derekbender.me" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">octopress.derekbender.me</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:octopress.derekbender.me">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/djbender" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/djbender" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:octopress.derekbender.me">
+	</form>
+</nav>
+
+</header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/djbender">djbender</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('djbender', 4, false);
+	})(jQuery);
+</script>
+
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Converting Flac to Alac Using Ffmpeg</h1>
+	<div class="entry-content"><p>In my <a href="http://derekbender.me/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+
+
+
+<pre><code>$ brew install --use-gcc ffmpeg
+
+</code></pre>
+
+
+
+<p>This can take a couple minutes as it installs all of its dependencies and compiles. Note that the <code>--use-gcc</code> flag is used because as of this writing ffmpeg does not compile with LLVM, and there are <a href="https://github.com/mxcl/homebrew/issues/7780" target="_blank">several</a> <a href="https://github.com/mxcl/homebrew/issues/8456" target="_blank">issues</a> <a href="https://github.com/mxcl/homebrew/issues/8494" target="_blank">already</a> open about it.</p>
+
+
+
+<p>And then to change a directory full of flac files to alac, run this bash one-liner:</p>
+
+
+
+<pre><code>$ for file in *.flac; do ffmpeg -i "$file" -acodec alac "`basename "$file" .flac`.m4a"; done;
+
+</code></pre>
+
+
+
+<p>This process didn&#8217;t take long at all. It appears that there isn&#8217;t any transcoding happening, more likely just a repackaging of data.</p>
+
+
+
+<p>I found several other solutions of interest like <a href="http://code.google.com/p/flukeformac/" target="_blank">Fluke</a> to play flac files in iTunes but you would still need to convert them inside iTunes to alac, and, as of this writing, Fluke does not work with iTunes on OS X 10.7 (Lion) in 64-bit mode. You can how ever bypass that by running iTunes in 32-bit mode.</p>
+
+
+
+<p>Another tool I found was <a href="http://tmkk.pv.land.to/xld/index_e.html" target="_blank">XLD</a> but I did not test this option since the ffmpeg option was so simple and easy.</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-07T00:00:00-06:00" pubdate data-updated="true">Nov 7<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/none/'>none</a>
+
+
+</div>
+	
+</div></article>
+<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2012
+
+    Derek Bender
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
