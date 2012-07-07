@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://octopress.derekbender.me
+title: octopress.derekbender.me
+subtitle: Ruby, Javascript, development processes, Buddhism, paleo, weightlifting, and Coffee. Not necessarily in that order. xoxo
+author: Derek Bender
 simple_search: http://google.com/search
-description:
+description: my description
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
