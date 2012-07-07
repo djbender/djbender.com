@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[octopress.derekbender.me]]></title>
+  <link href="http://octopress.derekbender.me/atom.xml" rel="self"/>
+  <link href="http://octopress.derekbender.me/"/>
+  <updated>2012-07-07T11:52:21-05:00</updated>
+  <id>http://octopress.derekbender.me/</id>
+  <author>
+    <name><![CDATA[Derek Bender]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
