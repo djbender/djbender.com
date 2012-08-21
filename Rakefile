@@ -219,6 +219,17 @@ task :deploy do
   Rake::Task["#{deploy_default}"].execute
 end
 
+desc "Generate production website"
+namespace :generate do
+  task :production do
+    if File.exists?(".preview-mode")
+      puts "## Found posts in preview mode, refenerating files ..."
+      File.delete(".preview-mode")
+      Rake::Task[:generate].execute
+    end
+  end
+end
+
 desc "Generate website and deploy"
 task :gen_deploy => [:integrate, :generate, :deploy] do
 end
