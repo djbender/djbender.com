@@ -31,6 +31,17 @@
       color: #333;
     }
 
+     div#back {
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 16px;
+      width: 100%;
+      float: left;
+    }
+
     div {
       -webkit-box-sizing: border-box;
       -ms-box-sizing: border-box;
@@ -51,7 +62,11 @@
       width: auto;
     }
 
-    h1 {
+    h3 {
+
+    }
+
+    h2 {
       margin: 0 0 16px;
       padding: 0 0 16px;
       border-bottom: 4px solid #333;
@@ -113,10 +128,13 @@ mixpanel.init("0be90ed5606439d06b1ccd16fad89994");</script><!-- end Mixpanel -->
 
   </head>
   <body>
+    <div id="back">
+      <h3><a href="/">&larr; Home</a></h3>
+    </div>
     <div>
-      <h1>
+      <h2>
         Unplayed
-      </h1>
+      </h2>
       <p>
         A shortlist for future play.
       </p>
@@ -126,9 +144,9 @@ mixpanel.init("0be90ed5606439d06b1ccd16fad89994");</script><!-- end Mixpanel -->
       <ul>
     </div>
     <div>
-      <h1>
+      <h2>
         Unbeaten
-      </h1>
+      </h2>
       <p>
         But not abandoned.
       </p>
@@ -137,9 +155,9 @@ mixpanel.init("0be90ed5606439d06b1ccd16fad89994");</script><!-- end Mixpanel -->
       </ul>
     </div>
     <div>
-      <h1>
+      <h2>
         Beaten
-      </h1>
+      </h2>
       <p>
         Some more thoroughly—or more times—than others.
       </p>
@@ -154,9 +172,9 @@ mixpanel.init("0be90ed5606439d06b1ccd16fad89994");</script><!-- end Mixpanel -->
       </ul>
     </div>
     <div>
-      <h1>
+      <h2>
         Abandoned
-      </h1>
+      </h2>
       <p>
         Not necessarily bad; just not for me.
       </p>

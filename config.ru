@@ -1,6 +1,13 @@
 require 'bundler/setup'
 require 'sinatra/base'
 
+ENV['RACK_ENV'] ||= 'development'
+
+$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
+require 'rack/use_www.rb'
+
+use Rack::UseWww
+
 # The project root directory
 $root = ::File.dirname(__FILE__)
 

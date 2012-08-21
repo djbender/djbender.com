@@ -25,6 +25,7 @@
 <nav id="main-nav"><ul class="main">
 	<li><a href="/">Blog</a></li>
 	<li><a href="/archives">Archives</a></li>
+	<li><a href="/unplayed">Unplayed</a></li>
 </ul>
 </nav>
 <nav id="mobile-nav">
@@ -33,6 +34,7 @@
 		<div class="container"><ul class="main">
 	<li><a href="/">Blog</a></li>
 	<li><a href="/archives">Archives</a></li>
+	<li><a href="/unplayed">Unplayed</a></li>
 </ul>
 </div>
 	</div>
@@ -89,6 +91,232 @@
 
 
     <article class="post">
+	<h1 class="title"><a href="/2011/11/08/12512478811/">Mou</a></h1>
+	<div class="entry-content">
+		<p><a href="http://static.tumblr.com/qjueruy/XhBlubjzj/screen_shot_2011-11-07_at_7.48.33_pm.png" target="_blank"><img src="http://media.tumblr.com/tumblr_lubjusczMX1qzwieh.png" alt="Mou"/></a></p>
+
+
+
+<p>If you use <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, stop what you&#8217;re doing and check out <a href="http://mouapp.com" target="_blank">Mou</a>.</p>
+
+
+
+<p>Biggest features is as you type preview window, but it&#8217;s full of awesome features like custom color themes, fullscreen mode, and exporting to html.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-08T00:00:00-06:00" pubdate data-updated="true">Nov 8<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a href="/categories/blog/">blog</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/11/07/12493684319/">Converting Flac to Alac Using Ffmpeg</a></h1>
+	<div class="entry-content">
+		<p>In my <a href="http://derekbender.me/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+
+
+
+<pre><code>$ brew install --use-gcc ffmpeg
+
+</code></pre>
+
+
+
+<p>This can take a couple minutes as it installs all of its dependencies and compiles. Note that the <code>--use-gcc</code> flag is used because as of this writing ffmpeg does not compile with LLVM, and there are <a href="https://github.com/mxcl/homebrew/issues/7780" target="_blank">several</a> <a href="https://github.com/mxcl/homebrew/issues/8456" target="_blank">issues</a> <a href="https://github.com/mxcl/homebrew/issues/8494" target="_blank">already</a> open about it.</p>
+
+
+
+<p>And then to change a directory full of flac files to alac, run this bash one-liner:</p>
+
+
+
+<pre><code>$ for file in *.flac; do ffmpeg -i "$file" -acodec alac "`basename "$file" .flac`.m4a"; done;
+
+</code></pre>
+
+
+
+<p>This process didn&#8217;t take long at all. It appears that there isn&#8217;t any transcoding happening, more likely just a repackaging of data.</p>
+
+
+
+<p>I found several other solutions of interest like <a href="http://code.google.com/p/flukeformac/" target="_blank">Fluke</a> to play flac files in iTunes but you would still need to convert them inside iTunes to alac, and, as of this writing, Fluke does not work with iTunes on OS X 10.7 (Lion) in 64-bit mode. You can how ever bypass that by running iTunes in 32-bit mode.</p>
+
+
+
+<p>Another tool I found was <a href="http://tmkk.pv.land.to/xld/index_e.html" target="_blank">XLD</a> but I did not test this option since the ffmpeg option was so simple and easy.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-07T00:00:00-06:00" pubdate data-updated="true">Nov 7<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a href="/categories/blog/">blog</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/10/26/11946893232/">Bash One-liner to Convert a Directory of Flac Audio Files to Mp3 V0</a></h1>
+	<div class="entry-content">
+		<pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
+
+
+
+
+
+
+
+<p>V0 just because `-b 320` can be rather silly.</p>
+
+
+
+
+
+
+
+<p>On a Mac using <a title="Homebrew" target="_blank" href="http://mxcl.github.com/homebrew/">Homebrew</a>, just do the following:</p>
+
+
+
+
+
+
+
+<blockquote>
+
+<p>brew install lame flac</p>
+
+</blockquote>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-26T00:00:00-05:00" pubdate data-updated="true">Oct 26<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a href="/categories/blog/">blog</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/2011/08/17/9057745065/">Love What You Do.</a></h1>
+	<div class="entry-content">
+		<a href="http://startupquote.com/post/9057337917/your-work-is-going-to-fill-a-large-part-of-your"><img src="/images/tumblr_lq3jujxEMM1qz6pqio1_500.png"/></a><br/><p>Reblogged for truth! Why settle for anything less? </p>
+
+<p><a href="http://onceuponamanda.tumblr.com/post/9057373480" target="_blank">onceuponamanda</a>:</p>
+
+<blockquote>
+
+<p>If I could hug a quote, I would.</p>
+
+<p><a href="http://startupquote.com/post/9057337917" target="_blank">startupquote</a>:</p>
+
+<blockquote>
+
+<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</p>
+
+<p>- Steve Jobs</p>
+
+</blockquote>
+
+</blockquote>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-17T00:00:00-05:00" pubdate data-updated="true">Aug 17<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a href="/categories/blog/">blog</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
 	<h1 class="title"><a href="/2011/08/15/8952084328/">Matt Explains Why You Should Keep Your SSH Keys on a New Installation</a></h1>
 	<div class="entry-content">
 		<section><dialog><dt>Matt J.:</dt><dd>it&#8217;s like you have a specific call that you use to bring your falcon back to your arm
@@ -118,7 +346,7 @@
 	<div class="tags">
 
 
-	<a href="/categories/none/">none</a>
+	<a href="/categories/blog/">blog</a>
 
 
 </div>
@@ -163,7 +391,7 @@
 	<div class="tags">
 
 
-	<a href="/categories/none/">none</a>
+	<a href="/categories/blog/">blog</a>
 
 
 </div>
@@ -206,7 +434,7 @@
 	<div class="tags">
 
 
-	<a href="/categories/none/">none</a>
+	<a href="/categories/blog/">blog</a>
 
 
 </div>
@@ -259,7 +487,7 @@
 	<div class="tags">
 
 
-	<a href="/categories/none/">none</a>
+	<a href="/categories/blog/">blog</a>
 
 
 </div>
@@ -273,10 +501,10 @@
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2012
+	<footer id="footer" class="inner"><p>Copyright &copy; 2012
 
     Derek Bender
-
+</p>
 </footer>
 	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
@@ -288,6 +516,18 @@
 
 
 
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-27281161-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 

@@ -2,72 +2,88 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://octopress.derekbender.me/2011/03/13/3848020745/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/08/02/8386349842/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:29-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/08/15/8951379200/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/08/15/8952084328/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/08/17/9057745065/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/10/26/11946893232/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:27-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/11/07/12493684319/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:27-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2011/11/08/12512478811/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:26-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2012/02/24/18198528510/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:26-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2012/03/02/18644991600/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2012/03/07/18915042658/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2012/04/03/20410032579/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/2012/04/18/21342966020/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:24-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://octopress.derekbender.me/2012/07/07/migrated-from-tumblr-to-octopress-on-jekyll/
         </loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:22-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.derekbender.me/2012/07/07/guitar-lessons-with-john-petrucci/</loc>
+        <lastmod>2012-08-21T10:21:23-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.derekbender.me/2012/07/08/freelancing-a-6-month-retrospective/</loc>
+        <lastmod>2012-08-21T10:21:22-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.derekbender.me/2012/07/10/bitcoin-donate-button/</loc>
+        <lastmod>2012-08-21T10:21:21-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://octopress.derekbender.me/2012/08/11/refinery-moving-away-from-devise/</loc>
+        <lastmod>2012-08-21T10:21:20-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/archives/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/blog/archives/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
     </url>
     <url>
         <loc>http://octopress.derekbender.me/</loc>
-        <lastmod>2012-07-07T16:32:42-05:00</lastmod>
+        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
     </url>
 </urlset>

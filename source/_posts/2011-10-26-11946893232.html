@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bash one-liner to convert a directory of flac audio files to mp3 V0
-categories: none
+categories: blog
 ---
 
 <pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
