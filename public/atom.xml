@@ -4,7 +4,7 @@
   <title><![CDATA[djbender.com]]></title>
   <link href="http://www.djbender.com/atom.xml" rel="self"/>
   <link href="http://www.djbender.com/"/>
-  <updated>2012-08-25T12:38:15-05:00</updated>
+  <updated>2012-08-25T13:21:09-05:00</updated>
   <id>http://www.djbender.com/</id>
   <author>
     <name><![CDATA[Derek Bender]]></name>
@@ -45,6 +45,47 @@ be some modifications coming to the styles, as it&#8217;s a little too muted
 for my tastes right now.</p>
 
 <p>Stay tuned, lots of topics incoming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Refinery moving away from Devise]]></title>
+    <link href="http://www.djbender.com/2012/08/11/refinery-moving-away-from-devise/"/>
+    <updated>2012-08-11T23:13:00-05:00</updated>
+    <id>http://www.djbender.com/2012/08/11/refinery-moving-away-from-devise</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin donate button.]]></title>
+    <link href="http://www.djbender.com/2012/07/10/bitcoin-donate-button/"/>
+    <updated>2012-07-10T08:58:00-05:00</updated>
+    <id>http://www.djbender.com/2012/07/10/bitcoin-donate-button</id>
+    <content type="html"><![CDATA[<p>http://leo.bogert.de/2012/02/22/simple-bitcoin-donate-button/</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Freelancing: A 6-Month Retrospective"]]></title>
+    <link href="http://www.djbender.com/2012/07/08/freelancing-a-6-month-retrospective/"/>
+    <updated>2012-07-08T15:28:00-05:00</updated>
+    <id>http://www.djbender.com/2012/07/08/freelancing-a-6-month-retrospective</id>
+    <content type="html"><![CDATA[<p>http://mrooney.github.com/blog/2012/07/01/freelancing-a-6-month-retrospective/</p>
+
+<p>From <a href="mrooney.github.com/blog/">Mike Rooney</a>
+<a href="http://news.ycombinator.com/item?id=4214767">HN</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Guitar Lessons with John Petrucci]]></title>
+    <link href="http://www.djbender.com/2012/07/07/guitar-lessons-with-john-petrucci/"/>
+    <updated>2012-07-07T20:02:00-05:00</updated>
+    <id>http://www.djbender.com/2012/07/07/guitar-lessons-with-john-petrucci</id>
+    <content type="html"><![CDATA[<p><a href="http://www.guitarworld.com/john-petrucci-practice-tips-part-1">John Petrucci Practice Tips Part 1</a></p>
+
+<p><a href="http://www.guitarworld.com/john-petrucci-practice-tips-part-2">John Petrucci Practice Tips Part 2</a></p>
 ]]></content>
   </entry>
   
