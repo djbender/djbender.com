@@ -1,67 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://octopress.derekbender.me/2011/03/13/3848020745/</loc>
+        <loc>http://www.djbender.com/2011/03/13/3848020745/</loc>
         <lastmod>2012-08-21T10:21:30-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/08/02/8386349842/</loc>
+        <loc>http://www.djbender.com/2011/08/02/8386349842/</loc>
         <lastmod>2012-08-21T10:21:29-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/08/15/8951379200/</loc>
+        <loc>http://www.djbender.com/2011/08/15/8951379200/</loc>
         <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/08/15/8952084328/</loc>
+        <loc>http://www.djbender.com/2011/08/15/8952084328/</loc>
         <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/08/17/9057745065/</loc>
+        <loc>http://www.djbender.com/2011/08/17/9057745065/</loc>
         <lastmod>2012-08-21T10:21:28-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/10/26/11946893232/</loc>
+        <loc>http://www.djbender.com/2011/10/26/11946893232/</loc>
         <lastmod>2012-08-21T10:21:27-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/11/07/12493684319/</loc>
-        <lastmod>2012-08-21T10:21:27-05:00</lastmod>
+        <loc>http://www.djbender.com/2011/11/07/12493684319/</loc>
+        <lastmod>2012-08-25T11:24:45-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2011/11/08/12512478811/</loc>
+        <loc>http://www.djbender.com/2011/11/08/12512478811/</loc>
         <lastmod>2012-08-21T10:21:26-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2012/02/24/18198528510/</loc>
+        <loc>http://www.djbender.com/2012/02/24/18198528510/</loc>
         <lastmod>2012-08-21T10:21:26-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2012/03/02/18644991600/</loc>
+        <loc>http://www.djbender.com/2012/03/02/18644991600/</loc>
         <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2012/03/07/18915042658/</loc>
+        <loc>http://www.djbender.com/2012/03/07/18915042658/</loc>
         <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2012/04/03/20410032579/</loc>
+        <loc>http://www.djbender.com/2012/04/03/20410032579/</loc>
         <lastmod>2012-08-21T10:21:25-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/2012/04/18/21342966020/</loc>
+        <loc>http://www.djbender.com/2012/04/18/21342966020/</loc>
         <lastmod>2012-08-21T10:21:24-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/archives/</loc>
-        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
+        <loc>http://www.djbender.com/2012/08/25/migrated-from-tumblr-to-octopress-on-jekyll/</loc>
+        <lastmod>2012-08-25T12:29:18-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/blog/archives/</loc>
-        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
+        <loc>http://www.djbender.com/archives/</loc>
+        <lastmod>2012-08-25T12:29:18-05:00</lastmod>
     </url>
     <url>
-        <loc>http://octopress.derekbender.me/</loc>
-        <lastmod>2012-08-21T10:21:30-05:00</lastmod>
+        <loc>http://www.djbender.com/blog/archives/</loc>
+        <lastmod>2012-08-25T12:29:18-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.djbender.com/</loc>
+        <lastmod>2012-08-25T12:29:18-05:00</lastmod>
     </url>
 </urlset>
