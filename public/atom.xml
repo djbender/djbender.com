@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[derekbender.me]]></title>
-  <link href="http://octopress.derekbender.me/atom.xml" rel="self"/>
-  <link href="http://octopress.derekbender.me/"/>
-  <updated>2012-08-21T10:59:26-05:00</updated>
-  <id>http://octopress.derekbender.me/</id>
+  <title><![CDATA[djbender.com]]></title>
+  <link href="http://www.djbender.com/atom.xml" rel="self"/>
+  <link href="http://www.djbender.com/"/>
+  <updated>2012-08-25T12:38:15-05:00</updated>
+  <id>http://www.djbender.com/</id>
   <author>
     <name><![CDATA[Derek Bender]]></name>
     
@@ -14,10 +14,45 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Announcing djbender.com]]></title>
+    <link href="http://www.djbender.com/2012/08/25/announcing-djbender-com/"/>
+    <updated>2012-08-25T12:30:00-05:00</updated>
+    <id>http://www.djbender.com/2012/08/25/announcing-djbender-com</id>
+    <content type="html"><![CDATA[<p>I&#8217;m not sure I like the idea of giving all my data to tumblr. Don&#8217;t get
+me wrong they&#8217;re a great service providing a real solution to easily
+posting content to a blog. Instead, the idea of an open web that
+individuals control sounds much more appealing.</p>
+
+<p>Is it more work? Yes. Yes it is. If you&#8217;re interested in the tech side
+I&#8217;ve moved to the <a href="http://www.djbender.com//octopress.org">Octopress</a> suites of tools which uses <a href="http://www.djbender.com//jekyllrb.com">Jekyll</a>
+to generate a static site from markdown files in a git repo. The blog is
+running on <a href="http://www.djbender.com//heroku.com">Heroku</a> (free!) and since all the content lives in
+markdown files, there&#8217;s no database required. And that&#8217;s part of the
+secret of this system: static html is as fast as it gets. In a way,
+Ocotopress (but more specifically Jekyll) let&#8217;s me have my dynamic code
+cake and eat it too!</p>
+
+<p>I&#8217;m hoping the new domain name (a .com!) and blogging system will allow
+me to get some more writing done. I don&#8217;t have any finacial incentive to
+write but I believe that writing helps me develop my ideas in the rest
+of my life and work so there is definite intagible value to the process.
+We&#8217;ll see if that comes to pass, I&#8217;ve certainly said similar things in
+the past.</p>
+
+<p>The one downside to this system is that it <em>really</em> gives me a lot of
+fiddley knobs to play with since it is a fully custom system. There will
+be some modifications coming to the styles, as it&#8217;s a little too muted
+for my tastes right now.</p>
+
+<p>Stay tuned, lots of topics incoming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Kittie Writes a Song]]></title>
-    <link href="http://octopress.derekbender.me/2012/04/18/21342966020/"/>
+    <link href="http://www.djbender.com/2012/04/18/21342966020/"/>
     <updated>2012-04-18T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2012/04/18/21342966020</id>
+    <id>http://www.djbender.com/2012/04/18/21342966020</id>
     <content type="html"><![CDATA[<blockquote>The corn city central<br/>
 
 is where we play<br/>
@@ -28,15 +63,15 @@ fructose all day<br/>
 
 run that ball, plow that field<br/>
 
-all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought to you by <a href="http://octopress.derekbender.me//chefkittie.com" target="_blank">chefkittie.com</a>.
+all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought to you by <a href="http://www.djbender.com//chefkittie.com" target="_blank">chefkittie.com</a>.
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[How Not To Sort By Average Rating]]></title>
-    <link href="http://octopress.derekbender.me/2012/04/03/20410032579/"/>
+    <link href="http://www.djbender.com/2012/04/03/20410032579/"/>
     <updated>2012-04-03T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2012/04/03/20410032579</id>
+    <id>http://www.djbender.com/2012/04/03/20410032579</id>
     <content type="html"><![CDATA[<a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a><br/><blockquote>
 
 <p><strong>PROBLEM</strong>: You are a web programmer. You have users. Your users rate stuff on your site. You want to put the highest-rated stuff at the top and lowest-rated at the bottom. You need some sort of &#8220;score&#8221; to sort by.</p>
@@ -54,9 +89,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Unsecured Mass Assignment is Bad]]></title>
-    <link href="http://octopress.derekbender.me/2012/03/07/18915042658/"/>
+    <link href="http://www.djbender.com/2012/03/07/18915042658/"/>
     <updated>2012-03-07T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2012/03/07/18915042658</id>
+    <id>http://www.djbender.com/2012/03/07/18915042658</id>
     <content type="html"><![CDATA[<p><div>A slew of github gists. I don&#8217;t understand why people don&#8217;t make these blog posts, I can only imagine the traffic they&#8217;re getting. Embedding gists is easy.</div>
 
 <ul><li><a href="https://gist.github.com/1975738" target="_blank">Homakov shows us how he was able to compromise Github.com</a></li>
@@ -73,9 +108,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[The 10 Rules of a Zen Programmer]]></title>
-    <link href="http://octopress.derekbender.me/2012/03/02/18644991600/"/>
+    <link href="http://www.djbender.com/2012/03/02/18644991600/"/>
     <updated>2012-03-02T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2012/03/02/18644991600</id>
+    <id>http://www.djbender.com/2012/03/02/18644991600</id>
     <content type="html"><![CDATA[<a href="http://www.grobmeier.de/the-10-rules-of-a-zen-programmer-03022012.html">The 10 Rules of a Zen Programmer</a><br/><p>Seriously Zen. Topics include:</p>
 
 <blockquote><ol><li>Focus</li>
@@ -106,9 +141,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Links]]></title>
-    <link href="http://octopress.derekbender.me/2012/02/24/18198528510/"/>
+    <link href="http://www.djbender.com/2012/02/24/18198528510/"/>
     <updated>2012-02-24T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2012/02/24/18198528510</id>
+    <id>http://www.djbender.com/2012/02/24/18198528510</id>
     <content type="html"><![CDATA[<p><ul><li><a href="http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html" target="_blank">Rails Went Off The Rails: Why I&#8217;m Rebuilding Archaeopteryx In CoffeeScript</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html&amp;title=Rails%20Went%20Off%20The%20Rails:%20Why%20I'm%20Rebuilding%20Archaeopteryx%20In%20CoffeeScript" width="78"></iframe></li>
 
 <li><a href="http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/" target="_blank">What’s the waiter doing with the computer screen?</a> <iframe frameborder="0" height="17" scrolling="no" src="http://www.instapaper.com/e2?url=http://javlaskitsystem.se/2012/02/whats-the-waiter-doing-with-the-computer-screen/&amp;title=Whats%20the%20waiter%20doing%20with%20the%20computer%20screen?" width="78"></iframe></li>
@@ -125,9 +160,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Mou]]></title>
-    <link href="http://octopress.derekbender.me/2011/11/08/12512478811/"/>
+    <link href="http://www.djbender.com/2011/11/08/12512478811/"/>
     <updated>2011-11-08T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2011/11/08/12512478811</id>
+    <id>http://www.djbender.com/2011/11/08/12512478811</id>
     <content type="html"><![CDATA[<p><a href="http://static.tumblr.com/qjueruy/XhBlubjzj/screen_shot_2011-11-07_at_7.48.33_pm.png" target="_blank"><img src="http://media.tumblr.com/tumblr_lubjusczMX1qzwieh.png" alt="Mou"/></a></p>
 
 
@@ -142,10 +177,10 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Converting flac to alac using ffmpeg]]></title>
-    <link href="http://octopress.derekbender.me/2011/11/07/12493684319/"/>
+    <link href="http://www.djbender.com/2011/11/07/12493684319/"/>
     <updated>2011-11-07T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2011/11/07/12493684319</id>
-    <content type="html"><![CDATA[<p>In my <a href="http://derekbender.me/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+    <id>http://www.djbender.com/2011/11/07/12493684319</id>
+    <content type="html"><![CDATA[<p>In my <a href="http://www.djbender.com/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
 
 
 
@@ -183,9 +218,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Bash one-liner to convert a directory of flac audio files to mp3 V0]]></title>
-    <link href="http://octopress.derekbender.me/2011/10/26/11946893232/"/>
+    <link href="http://www.djbender.com/2011/10/26/11946893232/"/>
     <updated>2011-10-26T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2011/10/26/11946893232</id>
+    <id>http://www.djbender.com/2011/10/26/11946893232</id>
     <content type="html"><![CDATA[<pre><code>$ for file in *.flac; do flac -cd "$file" | lame -h -V0 - "${file%.flac}.mp3"; done</code></pre>
 
 
@@ -220,10 +255,10 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Love what you do.]]></title>
-    <link href="http://octopress.derekbender.me/2011/08/17/9057745065/"/>
+    <link href="http://www.djbender.com/2011/08/17/9057745065/"/>
     <updated>2011-08-17T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2011/08/17/9057745065</id>
-    <content type="html"><![CDATA[<a href="http://startupquote.com/post/9057337917/your-work-is-going-to-fill-a-large-part-of-your"><img src="http://octopress.derekbender.me/images/tumblr_lq3jujxEMM1qz6pqio1_500.png"/></a><br/><p>Reblogged for truth! Why settle for anything less? </p>
+    <id>http://www.djbender.com/2011/08/17/9057745065</id>
+    <content type="html"><![CDATA[<a href="http://startupquote.com/post/9057337917/your-work-is-going-to-fill-a-large-part-of-your"><img src="http://www.djbender.com/images/tumblr_lq3jujxEMM1qz6pqio1_500.png"/></a><br/><p>Reblogged for truth! Why settle for anything less? </p>
 
 <p><a href="http://onceuponamanda.tumblr.com/post/9057373480" target="_blank">onceuponamanda</a>:</p>
 
@@ -247,9 +282,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Matt explains why you should keep your SSH keys on a new installation]]></title>
-    <link href="http://octopress.derekbender.me/2011/08/15/8952084328/"/>
+    <link href="http://www.djbender.com/2011/08/15/8952084328/"/>
     <updated>2011-08-15T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2011/08/15/8952084328</id>
+    <id>http://www.djbender.com/2011/08/15/8952084328</id>
     <content type="html"><![CDATA[<section><dialog><dt>Matt J.:</dt><dd>it&#8217;s like you have a specific call that you use to bring your falcon back to your arm
 </dd><dt>Matt J.:</dt><dd>but then you go and buy a new jeep to get to the aviary
 </dd><dt>Matt J.:</dt><dd>just because you have a new jeep, your falcon doesnt need a new call
@@ -259,9 +294,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[giant robots smashing into other giant robots - 2011 Rubyist's guide to a Mac OS X development environment]]></title>
-    <link href="http://octopress.derekbender.me/2011/08/15/8951379200/"/>
+    <link href="http://www.djbender.com/2011/08/15/8951379200/"/>
     <updated>2011-08-15T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2011/08/15/8951379200</id>
+    <id>http://www.djbender.com/2011/08/15/8951379200</id>
     <content type="html"><![CDATA[<a href="http://robots.thoughtbot.com/post/8700977975">giant robots smashing into other giant robots: 2011 Rubyist&#8217;s guide to a Mac OS X development environment</a><br/><p><a href="http://robots.thoughtbot.com/post/8700977975" target="_blank">thoughtbot-giantrobots</a>:</p>
 
 <blockquote>
@@ -278,9 +313,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[Imagine and Ocean Software Documentatry]]></title>
-    <link href="http://octopress.derekbender.me/2011/08/02/8386349842/"/>
+    <link href="http://www.djbender.com/2011/08/02/8386349842/"/>
     <updated>2011-08-02T00:00:00-05:00</updated>
-    <id>http://octopress.derekbender.me/2011/08/02/8386349842</id>
+    <id>http://www.djbender.com/2011/08/02/8386349842</id>
     <content type="html"><![CDATA[<iframe width="400" height="300" src="http://www.youtube.com/embed/Yt9BsZCifgU?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe><p>About this video:</p>
 
 <blockquote>
@@ -295,9 +330,9 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
   
   <entry>
     <title type="html"><![CDATA[kung fu grippe - The (Imperfect) Art of Sending Sensitive Stuff]]></title>
-    <link href="http://octopress.derekbender.me/2011/03/13/3848020745/"/>
+    <link href="http://www.djbender.com/2011/03/13/3848020745/"/>
     <updated>2011-03-13T00:00:00-06:00</updated>
-    <id>http://octopress.derekbender.me/2011/03/13/3848020745</id>
+    <id>http://www.djbender.com/2011/03/13/3848020745</id>
     <content type="html"><![CDATA[<a href="http://www.kungfugrippe.com/post/3786441300/dbox-trick">kung fu grippe: The (Imperfect) Art of Sending Sensitive Stuff</a><br/><p><a href="http://www.kungfugrippe.com/post/3786441300/dbox-trick" target="_blank">merlin</a>:</p>
 
 <blockquote>
