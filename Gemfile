@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 group :development do
+  gem 'foreman'
   gem 'rake', '~> 0.9.2'
   gem 'rack', '~> 1.4.1'
   gem 'jekyll', '~> 0.11.2'
@@ -14,6 +15,10 @@ group :development do
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
   gem 'debugger'
+end
+
+group :production do
+  gem 'thin'
 end
 
 gem 'sinatra', '~> 1.3.2'
