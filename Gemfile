@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source :rubygems
 
 group :development do
   gem 'foreman'
@@ -18,7 +18,9 @@ group :development do
 end
 
 group :production do
-  gem 'thin'
+  gem 'unicorn'
 end
 
 gem 'sinatra', '~> 1.3.2'
+gem 'dalli'
+gem 'rack-cache'

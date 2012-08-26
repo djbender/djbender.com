@@ -5,23 +5,39 @@ ENV['RACK_ENV'] ||= 'development'
 
 $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require 'rack/use_www.rb'
-
 use Rack::UseWww
 
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
+  require 'dalli'
+  require 'rack/cache'
 
+  if memcache_servers = ENV['MEMCACHE_SERVERS']
+    use Rack::Cache,
+      verbose: true,
+      metastore:   "memcached://#{memcache_servers}",
+      entitystore: "memcached://#{memcache_servers}"
+  end
+
+  get '/foo' do
+    cache_control :public, :must_revalidate, :max_age => 15
+    "Hello world at #{Time.now}!"
+  end
+  
   get '/unplayed' do
+    cache_control :public, :must_revalidate, :max_age => 60
     send_file 'static/unplayed/index.html'
   end
 
   get(/.+/) do
+    cache_control :public, :must_revalidate, :max_age => 60
     send_sinatra_file(request.path) {404}
   end
 
   not_found do
+    expires 0, :public, :no_cache
     send_sinatra_file('404.html') {"Sorry, I cannot find #{request.path}"}
   end
 
@@ -40,5 +56,7 @@ class SinatraStaticServer < Sinatra::Base
   end
 
 end
+
+use Rack::Deflater
 
 run SinatraStaticServer
