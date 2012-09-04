@@ -262,11 +262,9 @@ $header-height: 30px;
 		top: 30px;
 		right: 0;
 	}
-	.search {
-    @media screen and (max-width: 600px){
-	  	display: none;
-    }
-	}
+  @media screen and (max-width: 600px){
+    display: none;
+  }
 	.search{
 		float: left;
 		margin-top: 1px;
