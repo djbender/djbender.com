@@ -8,7 +8,7 @@ published: true
 
 One thing I miss about private guitar lessons is learning small exercises
 that improve your hands' dexterity and agility. John Petrucci of Dream
-Theater fame has two [excellent][1] [articles][2] over at guitarworld.com
+Theater fame has two [excellent][1] [articles][2] over at [Guitar World][3]
 that are really solid.
 
 His advice on practicing is spot on:
@@ -27,3 +27,4 @@ John Petrucci: Practice Tips, [Part 1][1] & [Part 2][2]
 
 [1]:http://www.guitarworld.com/john-petrucci-practice-tips-part-1
 [2]:http://www.guitarworld.com/john-petrucci-practice-tips-part-2
+[3]:http://www.guitarworld.com/
