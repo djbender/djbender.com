@@ -25,7 +25,7 @@ class SinatraStaticServer < Sinatra::Base
 
   get '/unplayed' do
     cache_control :public, :must_revalidate, :max_age => 60
-    send_file 'static/unplayed/index.htmk'
+    send_file 'static/unplayed/index.html'
   end
 
   not_found do
