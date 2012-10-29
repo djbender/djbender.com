@@ -7,7 +7,7 @@ categories: blog
 ---
 Marco talking about Ariel Meadow Stalling's [post][1]:
 
-{% blockquote %}
+{% blockquote Marco Arment http://www.marco.org/2012/09/10/hate-reads Hate-reads and how for-profit sites work %}
 
 The way to stop supporting terrible media is to stop watching or reading it.
 

@@ -225,8 +225,8 @@ namespace :generate do
     if File.exists?(".preview-mode")
       puts "## Found posts in preview mode, refenerating files ..."
       File.delete(".preview-mode")
-      Rake::Task[:generate].execute
     end
+    Rake::Task[:generate].execute
   end
 end
 
