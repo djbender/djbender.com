@@ -4,7 +4,7 @@
   <title><![CDATA[djbender.com]]></title>
   <link href="http://www.djbender.com/atom.xml" rel="self"/>
   <link href="http://www.djbender.com/"/>
-  <updated>2012-11-24T18:54:59-06:00</updated>
+  <updated>2012-11-24T19:06:26-06:00</updated>
   <id>http://www.djbender.com/</id>
   <author>
     <name><![CDATA[Derek Bender]]></name>
@@ -306,7 +306,7 @@ all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought 
     <link href="http://www.djbender.com/2011/11/07/12493684319/"/>
     <updated>2011-11-07T00:00:00-06:00</updated>
     <id>http://www.djbender.com/2011/11/07/12493684319</id>
-    <content type="html"><![CDATA[<p>In my <a href="http://www.djbender.com/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+    <content type="html"><![CDATA[<p>In my <a href="http://www.djbender.com/2011/10/26/11946893232/">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
 
 
 
