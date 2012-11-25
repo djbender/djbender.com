@@ -223,7 +223,7 @@ desc "Generate production website"
 namespace :generate do
   task :production do
     if File.exists?(".preview-mode")
-      puts "## Found posts in preview mode, refenerating files ..."
+      puts "## Found posts in preview mode, regenerating files ..."
       File.delete(".preview-mode")
     end
     Rake::Task[:generate].execute
