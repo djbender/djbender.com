@@ -1,0 +1,9 @@
+/* TEAM */
+Author: Derek Bender
+Twitter: @djbender
+From: Lincoln, Nebraska, USA
+
+/* THANKS */
+Octopress http://www.octopress.org
+Jekyll http://jekyllrb.com
+SkyArrow for the Slash Octopress Theme http://zespia.tw/Octopress-Theme-Slash/
