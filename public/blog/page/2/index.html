@@ -95,6 +95,77 @@
 
     <article class="post">
   
+    <h1 class="title"><a href="/2011/11/07/12493684319/">Converting Flac to Alac Using Ffmpeg</a></h1>
+  
+	<div class="entry-content">
+		<p>In my <a href="http://www.djbender.com/post/11946893232/bash-one-liner-to-convert-a-directory-of-flac-audio" target="_blank">last post</a> I showed how to convert flac to mp3 using the lame encoder. In this post, I&#8217;ll show how to convert your flac audio files to alac (Apple Lossless Audio Codec). The main reason to convert flac to alac is to preserve lossless audio files in iTunes and even play them on your iPod/iPhone, <em>natively</em>. All that you need is to install <a href="http://ffmpeg.org/" target="_blank">ffmpeg</a>, via <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a>:</p>
+
+
+
+<pre><code>$ brew install --use-gcc ffmpeg
+
+</code></pre>
+
+
+
+<p>This can take a couple minutes as it installs all of its dependencies and compiles. Note that the <code>--use-gcc</code> flag is used because as of this writing ffmpeg does not compile with LLVM, and there are <a href="https://github.com/mxcl/homebrew/issues/7780" target="_blank">several</a> <a href="https://github.com/mxcl/homebrew/issues/8456" target="_blank">issues</a> <a href="https://github.com/mxcl/homebrew/issues/8494" target="_blank">already</a> open about it.</p>
+
+
+
+<p>And then to change a directory full of flac files to alac, run this bash one-liner:</p>
+
+
+
+<pre><code>$ for file in *.flac; do ffmpeg -i "$file" -acodec alac "`basename "$file" .flac`.m4a"; done;
+
+</code></pre>
+
+
+
+<p>This process didn&#8217;t take long at all. It appears that there isn&#8217;t any transcoding happening, more likely just a repackaging of data.</p>
+
+
+
+<p>I found several other solutions of interest like <a href="http://code.google.com/p/flukeformac/" target="_blank">Fluke</a> to play flac files in iTunes but you would still need to convert them inside iTunes to alac, and, as of this writing, Fluke does not work with iTunes on OS X 10.7 (Lion) in 64-bit mode. You can how ever bypass that by running iTunes in 32-bit mode.</p>
+
+
+
+<p>Another tool I found was <a href="http://tmkk.pv.land.to/xld/index_e.html" target="_blank">XLD</a> but I did not test this option since the ffmpeg option was so simple and easy.</p>
+
+		
+		
+	</div>
+  <div class="entry-permalink"><a href="/2011/11/07/12493684319/">∞</a></div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-07T00:00:00-06:00" pubdate data-updated="true">Nov 7<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a href="/categories/blog/">blog</a>
+
+
+</div>
+	
+</div>
+</article>
+
+
+    <article class="post">
+  
     <h1 class="title"><a href="/2011/10/26/11946893232/">Bash One-liner to Convert a Directory of Flac Audio Files to Mp3 V0</a></h1>
   
 	<div class="entry-content">
