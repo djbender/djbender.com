@@ -30,9 +30,9 @@ We'll see if that comes to pass, I've certainly said similar things in
 the past.
 
 The one downside to this system is that it *really* gives me a lot of
-fiddle-y knobs to play with since it is a fully custom system. There will
+fiddle-y knobs to play with since it is a fully custom system. ~~There will
 be some modifications coming to the styles, as it's a little too muted
-for my tastes right now.
+for my tastes right now.~~ All style changed finished for now.
 
 Stay tuned, lots of topics incoming.
 
