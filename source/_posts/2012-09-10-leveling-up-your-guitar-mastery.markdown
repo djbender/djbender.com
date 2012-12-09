@@ -39,7 +39,7 @@ is because of his extreme dedication to his craft. Like a master
 blacksmith of years past, John Petrucci has cultivated a level of guitar
 mastery than most will only dream about. It is his shear level of respect
 for his craft and obscene amount of time spent mastering that craft by
-which I am awstruck. That's when my practicing changed.
+which I am awestruck. That's when my practicing changed.
 
 I stumbled across John Petrucci's instructional DVD "Rock Discipline" and
 was quickly hooked. The exercises are simple to pick up but take an
