@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: default
 
 ---
@@ -11,9 +11,9 @@ Today, `heroku pgbackups:capture` wouldn't work. It would start and then never c
 To export your database check your app's Config Vars with `heroku config`:
 
     $ PGPASSWORD=<password> pg_dump -Fc --no-acl --no-owner -h <host-url> -U <user> <database> > latest.dump
-    
+
 To import to your local postgres server simply use `pg_restore`:
-    
+
     $ pg_restore --verbose --clean --no-acl --no-owner -h localhost -d <database> latest.dump
-    
+
 It's important to not the `--no-acl --no-owner` flags as this will allow you to import to your production database's content without attempting to use production's gibberish roles.

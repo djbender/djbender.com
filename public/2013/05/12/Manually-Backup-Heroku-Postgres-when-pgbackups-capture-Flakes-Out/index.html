@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Kittie Writes a Song - djbender.com</title>
+	<title>Manually Backup Heroku Postgres When Pgbackups Capture Flakes Out - djbender.com</title>
 	<meta name="author" content="Derek Bender">
 
   
@@ -90,61 +90,21 @@
 	})(jQuery);
 </script>
 
-	<div id="content" class="inner"><article class="post">
-  
-    <h1 class="title">Kittie Writes a Song</h1>
-  
-  <div class="entry-content"><blockquote>The corn city central<br/>
+	<div id="content" class="inner"><h2>Manually Backup Heroku Postgres when pgbackups:capture Flakes Out</h2>
 
-is where we play<br/>
+<p>Today, <code>heroku pgbackups:capture</code> wouldn&rsquo;t work. It would start and then never complete. While I&rsquo;ve got a support ticket up I needed a way to download my production data <em>now</em>. Here&rsquo;s what I&rsquo;ve come up with:</p>
 
-corn city central<br/>
+<p>To export your database check your app&rsquo;s Config Vars with <code>heroku config</code>:</p>
 
-fructose all day<br/>
+<pre><code>$ PGPASSWORD=&lt;password&gt; pg_dump -Fc --no-acl --no-owner -h &lt;host-url&gt; -U &lt;user&gt; &lt;database&gt; &gt; latest.dump
+</code></pre>
 
-run that ball, plow that field<br/>
+<p>To import to your local postgres server simply use <code>pg_restore</code>:</p>
 
-all the sugars is what we yield</blockquote>&#8212;This hymnal of corn, brought to you by <a href="//chefkittie.com" target="_blank">chefkittie.com</a>.
-</div>
-  <div class="entry-permalink"><a href="">∞</a></p></div>
+<pre><code>$ pg_restore --verbose --clean --no-acl --no-owner -h localhost -d &lt;database&gt; latest.dump
+</code></pre>
 
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-18T00:00:00-05:00" pubdate data-updated="true">Apr 18<span>th</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a href="/categories/blog/">blog</a>
-
-
-</div>
-	
-</div>
-</article>
-<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
-	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_counter addthis_pill_style"></a>
-	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
-</div>
-
+<p>It&rsquo;s important to not the <code>--no-acl --no-owner</code> flags as this will allow you to import to your production database&rsquo;s content without attempting to use production&rsquo;s gibberish roles.</p>
 </div>
 	<footer id="footer" class="inner"><p>Copyright &copy; 2013
 
